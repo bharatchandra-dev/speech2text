@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "speech2text"
+version = "0.1.0"
+description = "Whisper ASR Webservice for Speech recognition."
+authors = ["bharatchandra-dev <bharatchandrasahu13@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
